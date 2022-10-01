@@ -1,0 +1,47 @@
+.App-parentForm {
+    height: 100px;
+    margin: auto;
+}
+
+.App-form {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(204, 204, 120);
+
+    border-radius: 15px;
+    height: 80px;
+}
+
+.App-label {
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: dimgray;
+}
+
+.App-input {
+    margin: 15px;
+    width: 250px;
+    height: 45px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.App-button {
+    background-color: dimgray;
+    margin: 15px 15px 15px 150px;
+    height: 45px;
+    width: 130px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.App-working {
+    display: flex;
+    flex-wrap: wrap;
+}
